@@ -1,5 +1,0 @@
-"use strict";var p=function(t,i){return function(){return i||t((i={exports:{}}).exports,i),i.exports}};var h=p(function(k,g){
-var c=require('@stdlib/ndarray-base-assert-is-row-major-string/dist'),S=require('@stdlib/ndarray-base-strides2order/dist'),m=require('@stdlib/ndarray-base-normalize-index/dist'),w=require('@stdlib/ndarray-base-dtype/dist'),y=require('@stdlib/ndarray-base-shape/dist'),D=require('@stdlib/ndarray-base-strides/dist'),O=require('@stdlib/ndarray-base-offset/dist'),j=require('@stdlib/ndarray-base-order/dist'),I=require('@stdlib/ndarray-base-data-buffer/dist'),M=require('@stdlib/ndarray-base-unflatten-shape/dist');function R(t,i,s,d){var a,q,f,l,n,u,v,o,e,r;for(n=y(t,!1),u=D(t,!1),l=j(t),o=S(u),o===0||o===3?f=c(l):f=o===1,e=m(i,n.length-1),q=M(n,e,s),a=[],v=s.length,r=0;r<e;r++)a.push(u[r]);for(r=0;r<v;r++)a.push(0);for(r=e+1;r<n.length;r++)a.push(u[r]);if(f)for(a[e+v-1]=u[e],r=v-1;r>0;r--)a[e+r-1]=a[e+r]*s[r];else for(a[e]=u[e],r=0;r<v-1;r++)a[e+r+1]=a[e+r]*s[r];return new t.constructor(w(t),I(t),q,a,O(t),l,{readonly:!d})}g.exports=R
-});var T=h();module.exports=T;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
