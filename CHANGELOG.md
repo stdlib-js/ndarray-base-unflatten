@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-29)
+## Unreleased (2026-11-16)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`95016b8`](https://github.com/stdlib-js/stdlib/commit/95016b8c7179f978fb8ef5b272cff36b523e06e6) - **fix:** add missing import in `ndarray/base/unflatten` declarations [(#12625)](https://github.com/stdlib-js/stdlib/pull/12625) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3af178c`](https://github.com/stdlib-js/stdlib/commit/3af178cc07862b3070234245f015a4bdc8370acb) - **style:** use single quotes for require calls [(#11516)](https://github.com/stdlib-js/stdlib/pull/11516) _(by Philipp Burckhardt)_
 -   [`63c4c05`](https://github.com/stdlib-js/stdlib/commit/63c4c057c630dc607b336c37e1cfc4b5e6ceac3d) - **feat:** add `ndarray/base/unflatten` [(#10706)](https://github.com/stdlib-js/stdlib/pull/10706) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
